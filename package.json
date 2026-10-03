@@ -1,8 +1,8 @@
 {
   "name": "typst-auto-preview",
   "displayName": "Typst Auto Preview",
-  "description": "Automatically pins the active Typst file in Preview when it becomes the active editor.",
-  "version": "0.0.1",
+  "description": "Automatically pins the active Typst file in Preview when it becomes active in the editor.",
+  "version": "0.0.2",
   "publisher": "technolukas",
   "engines": {
     "vscode": "^1.85.0"
