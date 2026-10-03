@@ -1,8 +1,8 @@
 {
-  "name": "typst-auto-preview",
-  "displayName": "Typst Auto Preview",
+  "name": "typst-preview-auto",
+  "displayName": "Typst Preview Auto",
   "description": "Automatically pins the active Typst file in Preview when it becomes active in the editor.",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "publisher": "technolukas",
   "engines": {
     "vscode": "^1.85.0"
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/TechnoLukas/TypstAutoPreview",
   "bugs": {
-    "url": "https://github.com/your-name/auto-typst-preview/issues"
+    "url": "https://github.com/TechnoLukas/TypstAutoPreview/issues"
   },
   "activationEvents": [
     "onLanguage:typst"
