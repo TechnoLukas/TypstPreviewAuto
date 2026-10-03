@@ -1,0 +1,10 @@
+src/**
+.gitignore
+.npmrc
+.vscode/**
+.jj/**
+.git/**
+**/*.ts
+**/*.map
+**/*.log
+node_modules/**

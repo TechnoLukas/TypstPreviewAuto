@@ -1,12 +1,44 @@
 {
-  "name": "auto-typst-preview",
-  "displayName": "Auto Typst Preview",
+  "name": "typst-auto-preview",
+  "displayName": "Typst Auto Preview",
+  "description": "Automatically pins the active Typst file in Preview when it becomes the active editor.",
   "version": "0.0.1",
+  "publisher": "technolukas",
   "engines": {
     "vscode": "^1.85.0"
   },
-  "activationEvents": [
-    "*"
+  "categories": [
+    "Other"
   ],
-  "main": "./out/extension.js"
+  "keywords": [
+    "typst",
+    "preview",
+    "tinymist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechnoLukas/TypstAutoPreview.git"
+  },
+  "homepage": "https://github.com/TechnoLukas/TypstAutoPreview",
+  "bugs": {
+    "url": "https://github.com/your-name/auto-typst-preview/issues"
+  },
+  "activationEvents": [
+    "onLanguage:typst"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.6.0",
+    "typescript": "^5.5.4"
+  }
 }
