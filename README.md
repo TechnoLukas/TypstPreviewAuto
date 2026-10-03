@@ -1,4 +1,4 @@
-# TypstAutoPreview
+# Typst Preview Auto
 
 https://marketplace.visualstudio.com/items?itemName=technolukas.typst-preview-auto
 
